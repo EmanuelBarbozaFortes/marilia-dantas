@@ -1,9 +1,24 @@
+.logo-header{
+  padding: 15px;
+  width: 100%;
+  img{
+    width: 120px;
+  }
+}
 header {
   width: 100%;
   background-color:rgb(255, 255, 255) ;
   position: fixed;
   z-index: 100;
-  padding: 15px;
+  padding: 0 0 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  img{
+    width: 120px;
+  }
   ul {
     display: flex;
     align-items: center;
@@ -50,7 +65,7 @@ header {
 }
 .logo {
   position: absolute;
-  max-width: 350px;
+  max-width: 600px;
   width: 100%;
   background-color: aliceblue;
   border-radius: 250px;
@@ -61,7 +76,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px) brightness(1.2);
+  /* background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px) brightness(1.2); */
   /* border: 1px solid rgba(255, 255, 255, 0.2); */
 }
