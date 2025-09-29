@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="src/img/logo25-simbolo.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/rest.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Marilia Dantas</title>
   </head>
   <body>
     <header>
-      <img src="src/img/24.png" alt="" />
+      <img src="src/img/logo-home-white.PNG" alt="" />
       <ul>
         <li>Inicio</li>
         <li>Serviços</li>
@@ -19,42 +28,60 @@
       </ul>
     </header>
     <div class="container-swiper">
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="src/img/slide-home-1.jpg" alt="" />
+            <img src="src/img/slide-home-1-1.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="src/img/slide-home-2.jpg" alt="" />
+            <img src="src/img/slide-home-2-1.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="src/img/slide-home-3.jpg" alt="" />
+            <img src="src/img/slide-home-3-1.jpg" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="src/img/lançamento-madame/slide1.jpg" alt="" />
+            <img src="src/img/slide-home-5-1.JPG" alt="" />
           </div>
           <div class="swiper-slide">
-            <img src="src/img/slide-home-4.jpg" alt="" />
+            <img src="src/img/slide-home-4-1.jpg" alt="" />
           </div>
         </div>
-        <img class="logo" src="src/img/logo24.png" />
+        <!-- <img class="logo" src="src/img/logo24.png" /> -->
+        <section class="home">
+          <div class="overlay"></div>
+          <div class="hero-content">
+            <h1>Beleza que </h1>
+            <h1><em>Transforma</em></h1>
+            <p>
+              Descubra sua melhor versão em nosso espaço dedicado à elegância e
+              sofisticação. Cada detalhe pensado para realçar sua beleza
+              natural.
+            </p>
+            <a href="#">Agendar Horário</a>
+          </div>
+        </section>
       </div>
     </div>
 
+    <!-- <section class="container-swiper2">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide "><img class="marilia-simbolo" src="src/img/logo25-simbolo.png" alt=""></div>
+          <div class="swiper-slide"><img src="src/img/logo24.png" alt=""></div>
+          <div class="swiper-slide"><img class="marilia-simbolo" src="src/img/logo25-simbolo.png" alt=""></div>
+          <div class="swiper-slide"><img  src="src/img/logo24.png" alt=""></div>
+          <div class="swiper-slide"><img class="marilia-simbolo" src="src/img/logo25-simbolo.png" alt=""></div>
+          <div class="swiper-slide"><img  src="src/img/logo24.png" alt=""></div>
+          <div class="swiper-slide"><img class="marilia-simbolo" src="src/img/logo25-simbolo.png" alt=""></div>
+          <div class="swiper-slide"><img src="src/img/logo24.png" alt=""></div>
+          <div class="swiper-slide"><img class="marilia-simbolo" src="src/img/logo25-simbolo.png" alt=""></div>
+          <div class="swiper-slide"><img src="src/img/logo24.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        direction: "vertical",
-        slidesPerView: 1,
-        spaceBetween: 30,
-        autoplay: true,
-        mousewheel: false,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
+    <script src="/src/js/script.js"></script>
   </body>
 </html>
