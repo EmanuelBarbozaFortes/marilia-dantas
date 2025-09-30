@@ -174,5 +174,16 @@ header {
       background-color: #fff;
       border: solid 1px black;
     }
+    button{
+      margin-top: 7px;
+      font-family: "Glacial Indiferent", sans-serif;
+      background-color: black;
+      color: #fff;
+      padding: 10px 15px;
+      border: solid 1px black;
+    }
+    .dual-cor-button{
+       border: solid 1px rgb(255, 255, 255);
+    }
   }
 }
