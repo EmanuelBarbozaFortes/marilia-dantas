@@ -169,6 +169,12 @@ header {
       align-items: start;
       border: solid 3px black;
     }
+    h1{
+      font-family: "Glacial Indiferent", sans-serif;
+    }
+    p{
+      font-family: "Glacial Indiferent", sans-serif;
+    }
     .dual-cor {
       color: black;
       background-color: #fff;
