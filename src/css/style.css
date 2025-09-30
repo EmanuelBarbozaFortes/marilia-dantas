@@ -22,18 +22,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 35px;
   }
   li {
     color: #fff;
-    font-family: "Glacial Indiferent", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 17px;
   }
 }
 .container-swiper {
   position: relative;
-  height: 100%;
+  height: 100vh;
   background: #000;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -130,7 +130,7 @@ header {
   gap: 80px;
 
   h1 {
-   font-family: "Glacial Indiferent", sans-serif;
+   font-family: "Montserrat", sans-serif;
    font-weight: 400;
     font-size: 50px;
   }
@@ -155,9 +155,12 @@ header {
       margin-left: auto;
       margin-right: auto;
     }
+    p{
+      font-size: 17px;
+    }
 
     .swiper-slide {
-      font-family: "Glacial Indiferent", sans-serif;
+      font-family: "Montserrat", sans-serif;
       padding: 30px;
       text-align: start;
       font-size: 18px;
@@ -169,12 +172,6 @@ header {
       align-items: start;
       border: solid 3px black;
     }
-    h1{
-      font-family: "Glacial Indiferent", sans-serif;
-    }
-    p{
-      font-family: "Glacial Indiferent", sans-serif;
-    }
     .dual-cor {
       color: black;
       background-color: #fff;
@@ -182,7 +179,7 @@ header {
     }
     button{
       margin-top: 7px;
-      font-family: "Glacial Indiferent", sans-serif;
+      font-family: "Montserrat", sans-serif;
       background-color: black;
       color: #fff;
       padding: 10px 15px;
