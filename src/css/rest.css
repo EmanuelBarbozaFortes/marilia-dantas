@@ -3,13 +3,13 @@
 /* font-family: "Montserrat", sans-serif; */
 @font-face {
   font-family: 'Glacial Indiferent';
-  src: url('src/fonts/glacial-indifference/GlacialIndifference-Bold.otf') format('opentype');
+  src: url("/src/fonts/glacial-indifference/GlacialIndifference-Bold.otf") format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Glacial Indiferent';
-  src: url('src/fonts/glacial-indifference/GlacialIndifference-Regular.otf') format('opentype');
+  src: url("/src/fonts/glacial-indifference/GlacialIndifference-Regular.otf") format('opentype');
   font-weight: 400;
   font-style: normal;
 }
