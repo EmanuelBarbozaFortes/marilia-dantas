@@ -35,7 +35,6 @@ header {
   position: relative;
   height: auto;
   background: #000;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
   margin: 0;
@@ -75,6 +74,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  overflow-y: auto;
 
   .hero-content {
     margin: 0 auto;

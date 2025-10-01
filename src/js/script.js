@@ -4,6 +4,7 @@ var swiper1 = new Swiper(".mySwiper1", {
   spaceBetween: 30,
   autoplay: true,
   mousewheel: false,
+  touchStartPreventDefault: false, 
   loop: true,
 });
 var swiper2 = new Swiper(".mySwiper2", {
