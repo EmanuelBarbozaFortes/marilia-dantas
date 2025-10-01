@@ -28,5 +28,21 @@ var swiper2 = new Swiper(".mySwiper2", {
       grid: { rows: 2 },
     },
   },
-  loop: true,
+});
+var swiper3 = new Swiper(".mySwiper3", {
+  spaceBetween: 30,
+  breakpoints: {
+    320: { // mobile
+      slidesPerView: 1,
+      grid: { rows: 1 },
+    },
+    640: { // tablets
+      slidesPerView: 2,
+      grid: { rows: 1 },
+    },
+    1024: { // desktops
+      slidesPerView: 3,
+      grid: { rows: 1 },
+    },
+  },
 });
