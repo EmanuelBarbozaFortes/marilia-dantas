@@ -28,21 +28,24 @@ var swiper2 = new Swiper(".mySwiper2", {
       grid: { rows: 2 },
     },
   },
+  autoplay: true,
 });
+
 var swiper3 = new Swiper(".mySwiper3", {
   spaceBetween: 30,
   breakpoints: {
     320: { // mobile
       slidesPerView: 1,
-      grid: { rows: 1 },
+      grid: { rows: 2 },
     },
     640: { // tablets
       slidesPerView: 2,
-      grid: { rows: 1 },
+      grid: { rows: 3},
     },
-    1024: { // desktops
+    960: { // desktops
       slidesPerView: 3,
       grid: { rows: 1 },
     },
   },
+  autoplay: true,
 });
