@@ -2,11 +2,16 @@ var swiper1 = new Swiper(".mySwiper1", {
   direction: "vertical",
   slidesPerView: 1,
   spaceBetween: 30,
-  autoplay: true,
+   autoplay: {
+    delay: 6000, 
+    disableOnInteraction: false, 
+  },
   mousewheel: false,
   touchStartPreventDefault: false, 
   loop: true,
 });
+
+
 var swiper2 = new Swiper(".mySwiper2", {
   spaceBetween: 30,
   breakpoints: {
