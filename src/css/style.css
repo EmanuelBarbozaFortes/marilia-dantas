@@ -116,25 +116,30 @@ header {
     color: rgb(255, 255, 255);
   }
 }
-.servico {
+.service {
   font-family: "Montserrat", sans-serif;
-  padding: 80px 30px 30px 30px;
+  padding: 80px 30px 100px;
+  margin: 0 0 30px;
   width: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 80px;
-  .detalhes-servico{
+  gap: 60px;
+
+  .service-details {
     display: flex;
     flex-direction: column;
     gap: 15px;
     text-align: center;
   }
   h1 {
-   font-weight: 400;
+    font-weight: 400;
     font-size: 50px;
+  }
+  p{
+    font-size: 17px;
   }
 
   .container-swiper2 {
@@ -157,12 +162,12 @@ header {
       margin-left: auto;
       margin-right: auto;
     }
-    .title-slide{
+    .title-slide {
       display: flex;
       flex-direction: column;
       gap: 5px;
     }
-    p{
+    p {
       font-size: 15px;
     }
 
@@ -172,19 +177,19 @@ header {
       text-align: start;
       font-size: 18px;
       background: #000000;
-      /* height: calc((100% - 30px) / 2) !important; */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: start;
-      border: solid 3px black;
+      border: solid 1px black;
+      border-radius: 5px;
     }
     .dual-cor {
       color: black;
-      background-color: #fff;
+      background-color: #f9fafb;
       border: solid 1px black;
     }
-    button{
+    button {
       margin-top: 7px;
       font-family: "Montserrat", sans-serif;
       background-color: black;
@@ -192,8 +197,8 @@ header {
       padding: 10px 15px;
       border: solid 1px black;
     }
-    .dual-cor-button{
-       border: solid 1px rgb(255, 255, 255);
+    .dual-cor-button {
+      border: solid 1px rgb(255, 255, 255);
     }
   }
   .container-swiper3 {
@@ -216,12 +221,12 @@ header {
       margin-left: auto;
       margin-right: auto;
     }
-    .title-slide{
+    .title-slide {
       display: flex;
       flex-direction: column;
       gap: 5px;
     }
-    p{
+    p {
       font-size: 15px;
     }
 
@@ -236,13 +241,14 @@ header {
       justify-content: space-between;
       align-items: start;
       border: solid 3px black;
+      border-radius: 5px;
     }
     .dual-cor {
       color: black;
-      background-color: #fff;
+      background-color: #f9fafb;
       border: solid 1px black;
     }
-    button{
+    button {
       margin-top: 7px;
       font-family: "Montserrat", sans-serif;
       background-color: black;
@@ -250,9 +256,100 @@ header {
       padding: 10px 15px;
       border: solid 1px black;
     }
-    .dual-cor-button{
-       border: solid 1px rgb(255, 255, 255);
+    .dual-cor-button {
+      border: solid 1px rgb(255, 255, 255);
     }
   }
 }
+.calendar {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
 
+  .container-calendar {
+    padding: 100px 20px;
+    margin: 0 auto;
+    max-width: 1350px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+  .group-card {
+    display: flex;
+    gap: 30px;
+  }
+  .title-calendar {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h1 {
+      font-size: 45px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+  .card-calendar {
+    background-color: #f9fafb;
+    width: 450px;
+    /* height: 450px; */
+    padding:30px 30px;
+    display: flex;
+    gap: 120px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between; 
+    border-radius: 5px;
+    
+    .card-title {
+      text-align: start;
+
+      h2 {
+        font-family: "Bodoni Moda", serif;
+        font-size: 55px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #3a3a3a;
+        font-weight: 400;
+      }
+    }
+    .card-details {
+      text-align: end;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 12px;
+
+      p {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #3a3a3a;
+        font-weight: 400;
+      }
+      a {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      background-color: #000;
+      font-size: 15px;
+      padding: 8px 15px;
+      border: solid 1px #fff;
+      transition: 0.3s ease-in-out ;
+    }
+      a:hover{
+        background-color: #fff;
+        color: #000;
+        border: solid 1px black;
+      }
+    }   
+  }
+}
