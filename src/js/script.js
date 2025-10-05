@@ -55,7 +55,7 @@ var swiper3 = new Swiper(".mySwiper3", {
       // Ajuste fino opcional:
       duration: 2.3,        // velocidade geral da animação
       smoothWheel: true,    
-      smoothTouch: true     
+      smoothTouch: false    
     });
 
     // 2) Loop de animação do Lenis
