@@ -159,6 +159,7 @@ header {
     padding: 0;
 
     .swiper {
+      touch-action: pan-y;
       overflow: hidden;
       width: 100%;
       height: 100%;
